@@ -1,0 +1,91 @@
+html {
+  font-family: helvetica;
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+header h2 {
+  font-weight: lighter;
+  padding-top: 3%;
+}
+
+header img {
+  height: 30%;
+  width: 5%;
+  padding-top: 3.5%;
+  padding-right: 2%;
+  padding-left: 20%;
+}
+
+.top {
+  width: 100%;
+  height: 22%;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.bike-image {
+  width: 100%;
+  height: 100%;
+}
+
+.bike-image img {
+  width: 100%;
+  height: 80%;
+}
+
+.na {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 10%;
+  bottom: 80%;
+  z-index: 1;
+  background-color: black;
+  width: 35%;
+  height: 40%;
+  color: white;
+}
+
+.na h2 {
+  font-weight: lighter;
+  font-size: 2rem;
+  padding-left: 8%;
+  padding-top: 2%;
+  margin-bottom: 0;
+}
+
+.na h1 {
+  margin: 0;
+  padding-top: 0;
+  padding-left: 7%;
+  font-size: 2.5rem;
+}
+
+.nav-bar {
+  position: relative;
+  bottom: 65%;
+  height: 8%;
+  background-color: red;
+  color: white;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar li {
+  font-size: 1rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1.25%;
+  padding-right: 7%;
+  padding-left: 5.2%;
+}
